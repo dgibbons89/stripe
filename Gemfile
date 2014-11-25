@@ -11,6 +11,8 @@ gem 'bootstrap-sass'
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 gem 'figaro'
 gem 'letter_opener', group: :development
+gem 'activeadmin', github: 'gregbell/active_admin'
+gem 'devise'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
