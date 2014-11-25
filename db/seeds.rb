@@ -5,3 +5,12 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+growth_hacking = Product.create(title: "Growth Hacking", price: "4.99", subtitle: "Crash Course", sku: "GROHACK1" , author: "Mattan Griffel", description: %{     <p>In this talk, Mattan Griffel introduces you to the concept of Growth Hacking and shares his favorite tips for getting started as a growth hacker.</p>
+            <p><strong>What You'll Learn</strong></p>
+            <ul class="no-indent">
+                <li>What is a growth hacker?</li>
+                <li>The 5 stages of the user lifecycle</li>
+                <li>How to apply the Lean Marketing Framework</li>
+                <li>Resources and tools you'll need to know</li>
+            </ul>},)
